@@ -18,7 +18,7 @@ A clean, distraction-free dashboard for crafting professional Midjourney prompts
 
 ### 🤖 AI-Powered
 - **Generate from Idea**: Describe a concept and get 3 detailed, professional prompt options
-- **GPT-4o Integration**: AI follows the proven cinematic formula for consistent quality
+- **GPT-5 Integration**: AI follows the proven cinematic formula for consistent quality
 - **Smart Enhancement**: Automatically adds proper lighting, geometry, color contrast, and atmosphere
 
 ### 💾 Database & Management
@@ -146,7 +146,7 @@ Read the full [Cinematic Formula Guide](docs/CINEMATIC_FORMULA.md) for details.
 - **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first styling
 - **[Prisma](https://www.prisma.io/)** - Type-safe database ORM
 - **[SQLite](https://www.sqlite.org/)** - Lightweight local database
-- **[OpenAI GPT-4o](https://openai.com/)** - AI-powered prompt generation
+- **[OpenAI GPT-5](https://openai.com/)** - AI-powered prompt generation
 - **[Sonner](https://sonner.emilkowal.ski/)** - Toast notifications
 
 ## 📁 Project Structure

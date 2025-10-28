@@ -73,7 +73,7 @@ http://localhost:3000
 
 1. Fill in your basic prompt elements in the structured fields
 2. Click the **AI Enhance** button
-3. Wait a few seconds for GPT-4o to generate:
+3. Wait a few seconds for GPT-5 to generate:
    - One optimized main prompt
    - Two creative variants
    - A notes section explaining the choices
