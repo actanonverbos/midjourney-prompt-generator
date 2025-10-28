@@ -6,7 +6,7 @@ A clean, distraction-free dashboard for crafting professional Midjourney prompts
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue?style=flat-square&logo=typescript)
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
-**Built with [Cursor](https://cursor.sh) and Claude 3.5 Sonnet**
+**Built with [Cursor](https://cursor.sh) and Claude 4.5 Sonnet**
 
 ## ✨ Features
 
@@ -257,7 +257,7 @@ MIT License - see the [LICENSE](LICENSE) file for details.
 ## 🙏 Acknowledgments
 
 - Built with [Cursor](https://cursor.sh) - The AI-first code editor
-- Powered by [Claude 3.5 Sonnet](https://www.anthropic.com/claude) - Anthropic's AI assistant
+- Powered by [Claude 4.5 Sonnet](https://www.anthropic.com/claude) - Anthropic's AI assistant
 - UI components from [ShadCN UI](https://ui.shadcn.com/)
 - Inspired by the Midjourney community and proven prompt engineering techniques
 
