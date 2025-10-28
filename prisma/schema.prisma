@@ -1,0 +1,56 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client"
+  output   = "../lib/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Prompt {
+  id                  String   @id @default(cuid())
+  name                String   @default("Untitled Prompt")
+  subject             String   @default("")
+  setting             String   @default("")
+  action              String   @default("")
+  lighting            String   @default("")
+  artDirection        String   @default("")
+  extras              String   @default("")
+  aspectRatio         String   @default("16:9")
+  stylize             Int      @default(700)
+  chaos               Int      @default(0)
+  raw                 Boolean  @default(false)
+  styleWeight         Int?
+  seed                String?
+  stripQueryStrings   Boolean  @default(true)
+  styleRefs           String   @default("[]") // JSON array
+  profileIds          String   @default("[]") // JSON array
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+}
+
+model Preset {
+  id                  String   @id @default(cuid())
+  name                String
+  subject             String   @default("")
+  setting             String   @default("")
+  action              String   @default("")
+  lighting            String   @default("")
+  artDirection        String   @default("")
+  extras              String   @default("")
+  aspectRatio         String   @default("16:9")
+  stylize             Int      @default(700)
+  chaos               Int      @default(0)
+  raw                 Boolean  @default(false)
+  styleWeight         Int?
+  seed                String?
+  stripQueryStrings   Boolean  @default(true)
+  styleRefs           String   @default("[]") // JSON array
+  profileIds          String   @default("[]") // JSON array
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+}
