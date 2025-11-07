@@ -148,7 +148,7 @@ export async function POST(request: NextRequest) {
     const userMessage = JSON.stringify(input, null, 2);
     
     const completion = await openai.chat.completions.create({
-      model: "gpt-5",
+      model: "gpt-4o",
       messages: [
         { role: "system", content: SYSTEM_MESSAGE },
         { 
